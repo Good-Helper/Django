@@ -3,6 +3,7 @@ migrations/*
 
 # Не игнорировать __init__.py
 !migrations/__init__.py
+!migrations/
 
 # Python
 *.py[cod]
