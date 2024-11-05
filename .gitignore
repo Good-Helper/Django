@@ -1,0 +1,56 @@
+# Игнорировать все файлы в папке migrations
+migrations/*
+
+# Не игнорировать __init__.py
+!migrations/__init__.py
+
+# Python
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+migrations/
+media/
+staticfiles/
+.env
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# Local environment variables file
+.env.local
+
+# Ignore any local settings files (if you have them)
+local_settings.py
+
+# Ignore any other files you don't want to track in your repository
