@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 # Определение базового пути
@@ -27,11 +26,13 @@ ROOT_URLCONF = 'app.urls'
 # Настройки WSGI приложения
 WSGI_APPLICATION = 'app.wsgi.application'
 
+
 # Статические файлы (CSS, JavaScript, изображения)
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",  # Путь к вашей директории со статическими файлами
 ]
+
 
 # Медиа файлы (загружаемые пользователями)
 MEDIA_URL = '/media/'

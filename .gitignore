@@ -1,28 +1,25 @@
-# Игнорировать все файлы в папке migrations
-migrations/*
-
-# Не игнорировать __init__.py
-!migrations/__init__.py
-!migrations/
-
 # Python
 *.py[cod]
 __pycache__/
 *.pyo
 *.pyd
 .Python
-db.sqlite3
+
 
 # Django
 *.log
 *.pot
 *.pyc
 *.sqlite3
-migrations/
+
 media/
 staticfiles/
 .env
 *.env
+
+venv 
+.venv
+
 
 # IDEs and editors
 .vscode/
@@ -55,3 +52,7 @@ coverage.xml
 local_settings.py
 
 # Ignore any other files you don't want to track in your repository
+
+
+pnpm-lock.yaml
+node_modules

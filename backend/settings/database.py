@@ -1,4 +1,5 @@
 # app/settings/database.py
+from .base import BASE_DIR
 
 DATABASES = {
     'default': {

@@ -1,6 +1,3 @@
-Django
-psycopg2-binary
-pillow 
-django-cors-headers
+django-vite
 django-environ
 

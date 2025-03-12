@@ -1,5 +1,3 @@
-# app/settings/base.py
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -23,8 +21,25 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 
+
+    'django_vite',
 ] + RSV_APP
 
+
+
+DJANGO_VITE = {
+    'default': {
+        'dev_mode': True,  # Режим разработки (True для разработки, False для production)
+        'dev_server_port': 3000,  # Порт Vite Dev Server
+        'manifest_path': BASE_DIR / 'frontend' / 'dist' / 'manifest.json',  # Путь к манифесту
+        'static_url_prefix': 'assets/',  # Префикс для статики
+        # 'server': {
+        #     'https': False,  # Использовать HTTPS (True/False)
+        # },
+    }
+}
 
 
 # Import other settings modules
