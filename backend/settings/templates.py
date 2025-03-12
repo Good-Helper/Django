@@ -21,10 +21,10 @@ TEMPLATES = [
 ]
 
 # Настройки URL конфигурации
-ROOT_URLCONF = 'app.urls'
+ROOT_URLCONF = 'backend.urls'
 
 # Настройки WSGI приложения
-WSGI_APPLICATION = 'app.wsgi.application'
+WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 # Статические файлы (CSS, JavaScript, изображения)
